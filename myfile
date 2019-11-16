@@ -1,4 +1,1 @@
-#!/bin/bash
-echo "this is git hub"
-git add $1
-git commit -m "$2"
+this is practice
