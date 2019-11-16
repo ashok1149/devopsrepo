@@ -1,0 +1,11 @@
+#!/bin/bash
+echo -e "you want to add and commit the $1 \n[yes/no]"
+read a
+if [ $a = yes ]
+then
+echo "`git add $1`"
+echo "`git commit -m "$2"`"
+elif [ $a = no ]
+then
+echo "session aborted"
+fi
